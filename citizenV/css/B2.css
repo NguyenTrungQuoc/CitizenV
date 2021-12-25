@@ -1,0 +1,45 @@
+/*inputB2*/
+.contaner h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.contaner_listform{
+    width: 700px;
+}
+.contaner_listform label{
+    font-size: 20px;
+}
+.contaner_listform input{
+    width: 100%;
+    outline: none;
+}
+.contaner_listform input:focus{
+    border: 2px solid #2da5f5;
+}
+.contaner_name{
+    margin-bottom: 10px;
+}
+.contaner_old{
+    margin-bottom: 10px;
+}
+.contaner_sex{
+    margin-bottom: 10px;
+    display: flex;
+}
+.contaner_date{
+    margin-bottom: 10px;
+
+}
+.contaner_cccd{
+    margin-bottom: 10px;
+}
+.contaner_hometown{
+    margin-bottom: 10px;
+}
+.contaner_address{
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    margin-top: 10px;
+}

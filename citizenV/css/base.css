@@ -1,0 +1,211 @@
+:root{
+    --text-color: white;
+    --back-color:black;
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+img{
+    width: 150px;
+}
+
+.grid{
+    width:1400px;
+    margin:0 auto ;
+    box-shadow: 0 0 5px rgba(0, 0, 0,0.5);
+}
+a{
+    text-decoration: none;
+    color:var(--back-color);
+}
+div img{
+    height: 200px;
+}
+
+/*banner*/
+.banner{
+    display: flex;
+    background: url('https://moh.gov.vn/byt-theme/images/banner.png');
+    color:var(--text-color);
+} 
+.banner_list{
+    margin-top: 2.5%;
+}
+.banner_list p{
+    color:rgb(230,122,47);
+    font-weight: 600;
+}
+
+/*header*/
+.col{
+    background-color: rgb(166, 190, 196);
+}
+
+.header .col,
+.header ul{
+    display: flex;
+}
+.header .col{
+    justify-content: space-between;
+}
+.header ul li{
+    font-size:20px;
+    padding:10px;
+    align-items: center;
+    display: block;
+}
+.log-out{
+    padding: 10px;
+    font-size: 20px;
+}
+.log-out i{
+    font-size: 17px;
+}
+.header_icon{
+    display: inline-block;
+    background-color: rgb(234,234,234);
+    padding: 17px 20px;
+    border-radius: 100%;
+    margin-right: 5px;
+    position: relative;
+    border: 1px solid transparent;
+}
+.log-out:hover,
+.log-out:hover a,
+.log-out:hover p,
+.log-out:hover .header_icon i,
+.header_list li:hover,
+.header_list li:hover a,
+.header_list li:hover i,
+.header_list li:hover .header_icon{
+    border-color:red;
+    color:red;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.log-out:active,
+.header_list li:active{
+    opacity: 0.5;
+}
+.header
+.header_icon i{
+    font-size: 17px;
+    align-items: center;
+    color:#2da5f5;
+}
+/*contaner*/
+.contaner{
+    background-color: rgb(248,249,250);
+    padding:50px ;
+    margin-top:30px;
+}
+.contaner h1{
+    color:#2da5f5;
+}
+.form_input{
+    margin-top:20px ;
+    display: flex;
+}
+.form_input input{
+    width: 300px;
+    height: 40px;
+    outline: none;
+}
+.form_input input:focus{
+    border: 2px solid #2da5f5;
+}
+.contaner_fix,
+.contaner_error{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.contaner_fix i,
+.contaner_error i{
+    font-size: 25px;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+input{
+    font-size: 17px;
+    padding: 5px;
+}
+.fix_btn{
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: 624px;
+}
+.contaner h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.contaner_listform{
+    width: 700px;
+}
+.contaner_listform label{
+    font-size: 20px;
+}
+.contaner_listform input{
+    width: 100%;
+    outline: none;
+}
+.contaner_name{
+    margin-bottom: 10px;
+}
+.contaner_old{
+    margin-bottom: 10px;
+}
+.contaner_sex{
+    margin-bottom: 10px;
+    display: flex;
+}
+.checkcontainer {
+    display: flex;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.radiobtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eeeeee;
+    border-radius: 50%;
+}
+.checkcontainer input:checked ~ .radiobtn {
+    background-color: #2196F3;
+}
+.contaner_date{
+    margin-bottom: 10px;
+
+}
+.contaner_cccd{
+    margin-bottom: 10px;
+}
+.contaner_hometown{
+    margin-bottom: 10px;
+}
+.contaner_address{
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    margin-top: 10px;
+}
+
+.header .header_list li .active i,
+.header .header_list li .active {
+    color:red;
+}

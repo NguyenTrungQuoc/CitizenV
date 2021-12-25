@@ -1,0 +1,156 @@
+/*pages B1*/
+.content{
+    background-color: rgb(248,249,250);
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+.content_list{
+    width: 25%;
+}
+.content_menu{
+    font-size: 20px;
+}
+.content_menu li:not(li:first-child){
+    margin-left: 5px;
+}
+.content_menu-option:not(.content_menu-option:nth-child(8)):after{
+    content: "";
+    display: block;
+    background-color: #2da5f5;
+    width: 195px;
+    top:100%;
+    left: 16px; 
+    height: 1px;
+    position: absolute;
+}
+.content_menu .content_menu-option:not(.content_menu-option:first-child):hover a{
+    color:red;
+}
+.content_menu-option{
+    padding:20px;
+    position: relative;
+}
+
+/*active*/
+.content_menu-option .active{
+    color:red;
+}
+
+/**/
+.content_menu-option i{
+    color:#2da5f5;
+    margin-right: 10px;
+}
+
+.content_board{
+    width: 75%;
+    padding:20px;
+}
+.content_list{
+
+}
+.content_board-input input:focus{
+    border: 2px solid #2da5f5;
+}
+.content_board-input{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.content_board-input input:first-child{
+    width: 200px;
+    outline: none;
+}
+.content_board-input input:last-child{
+    width: 50%;
+    outline: none;
+}
+table{
+    margin-top: 10px;
+    padding:10px;
+}
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 20px;
+}
+th{
+    background-color: #2da5f5;
+    color: var(--text-color);
+}
+tr{
+    width: 100%;
+}
+.content_order{
+    width: 50px;
+}
+td:last-child{
+    cursor: pointer;
+}
+
+/*Next*/
+.content_next{
+    display: flex;
+    margin-top: 20px;
+    justify-content: end;
+}
+.content_next-list{
+    font-size: 18px;
+    padding:5px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+.content_next-list:hover{
+    background-color: #2da5f5;
+    color:var(--text-color);
+    border-color: #2da5f5;
+}
+.content_next-list.active{
+    background-color: #2da5f5;
+    color:var(--text-color);
+}
+tr td input{
+    width: auto;
+}
+
+
+/* Search Time */
+.content_board-time{
+    margin-top: 40px;
+    font-size: 20px;
+    display: flex;
+}
+/* .content_board-time label{
+    margin-right: 3px;
+} */
+.content_boxtime{
+    margin-right: 20px;
+}
+
+
+/* Báo cáo hoàn thành */
+.content_done{
+    display: flex;
+    margin-top: 100px;
+   font-size:20px;
+}
+.content_done p{
+    margin-top: 5px;
+    margin-right: 50px;
+    font-style: italic;
+    font-weight: 600;
+}
+.content_done button{
+    background-color: #2da5f5;
+    color:var(--text-color);
+    font-size: 17px;
+    padding: 5px;
+    border-color: transparent;
+    cursor: pointer;
+}
+.content_done button:active{
+    border-color: red;
+}

@@ -1,0 +1,134 @@
+.content_left-btn{
+    font-size: 40px;
+    padding:20px;
+}
+.content_left-btn i:active{
+    opacity: 0.7;
+}
+.content_left-btn i{
+    background-color: #2da5f5;
+    padding:5px 10px;
+    color: var(--text-color);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content_information-name h1{
+    color:#2da5f5;
+    text-align: center;
+    margin: 30px 0;
+}
+.content_all{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.content_information{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    padding:20px;
+    
+}
+.content_information-img{
+    width: 22%;
+    background-color: rgba(0, 0, 0,0.32);
+    cursor: pointer;
+    position:relative;
+    margin-left: 5%;
+    height: 280px;
+    border-radius: 10px;
+}
+.content_information-img:hover{
+    opacity: 0.9;
+}
+.content_information-img::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--text-color);
+    position: absolute;
+}
+.content_information-img::before{
+    content: "";
+    display: block;
+    height: 17%;
+    width: 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--text-color);
+    position: absolute;
+}
+.content_information-list{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 18px;
+}   
+.content_information-text{
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.content_information-text p{
+    margin-right: 10px;
+}
+.content_information-edit{
+    width: 30%;
+    font-size: 20px;
+    margin-left: 80px;
+   
+}
+.content_information-edit--list{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content_information-edit--click{
+    margin-right: 100px;
+    display: block;
+    width: 70px;
+    background-color: rgba(153, 143, 143,0.4);
+    height: 40px;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+    animation: transform 10s linear;
+}
+.content_information-edit-btn{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30px;
+    top: 5px;
+    left: 5px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    animation: transform 10s linear;
+}
+
+/* Census_form */
+.content_form-name{
+    color:#2da5f5;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.content_form-list{
+    margin-left: 15%;
+    margin-top: 50px;
+}
+.content_form-list--name{
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.content_form-list--name p{
+    margin-right: 20px;
+}
